@@ -1,0 +1,51 @@
+import React from 'react';
+import './OPFinalDraft.css';
+
+const OPFinalDraft = () => {
+  return (
+    <div className="container">
+      <div className="sidebar">
+        <h2>Health CR</h2>
+        <div className="menu-section">
+          <h4>Manager</h4>
+          <ul>
+            <li>Register patients</li>
+            <li>patients list</li>
+            <li>Paiement</li>
+          </ul>
+          <h4>IPD</h4>
+          <ul>
+            <li>Register patients</li>
+            <li>patients list</li>
+            <li>Paiement</li>
+          </ul>
+          <h4>Medicin</h4>
+          <ul>
+            <li>List all</li>
+          </ul>
+        </div>
+      </div>
+
+      <div className="main-content">
+        <h2>OP - Final draft to Consulent</h2>
+        <div className="info">
+          <div><span>Name</span><span>:</span><span>Abc</span></div>
+          <div><span>Age</span><span>:</span><span>13</span></div>
+          <div><span>Gender</span><span>:</span><span>Male</span></div>
+          <div><span>Blood group</span><span>:</span><span>A+</span></div>
+          <div><span>Date of Birth</span><span>:</span><span>12/12/2022</span></div>
+          <div><span>Phone</span><span>:</span><span>0123456789</span></div>
+          <div><span>Department</span><span>:</span><span className="bold">Cardiology</span></div>
+          <div><span>Date and Time</span><span>:</span><span>12/12/2022 - [2:00]</span></div>
+          <div><span>Consultant</span><span>:</span><span>caty</span></div>
+        </div>
+        <div className="buttons">
+          <button>Print</button>
+          <button>Sent</button>
+        </div>
+      </div>
+    </div>
+  );
+};
+
+export default OPFinalDraft;
