@@ -1,11 +1,11 @@
-/* Full page styling */
+/* General layout */
 .login-container {
   font-family: Arial, sans-serif;
   background-color: white;
   height: 100vh;
 }
 
-/* Header */
+/* Header bar */
 .header-bar {
   background-color: #c0dbf8;
   padding: 10px 20px;
@@ -18,30 +18,38 @@
   font-weight: bold;
 }
 
-/* Login Box */
+/* Login box */
 .login-box {
   background-color: #dcdcdc;
   width: 350px;
   margin: 100px auto;
   padding: 30px;
   border-radius: 15px;
-  text-align: center;
+  text-align: left;
 }
 
 .login-title {
+  text-align: center;
   margin-bottom: 20px;
   font-size: 22px;
   font-weight: bold;
 }
 
-/* Form Inputs */
-.input-field {
+/* Inputs and labels */
+label {
   display: block;
+  margin-bottom: 6px;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.input-field {
   width: 100%;
   padding: 10px;
-  margin: 10px 0 20px 0;
+  margin-bottom: 20px;
   border-radius: 10px;
   border: none;
+  font-size: 14px;
 }
 
 /* Button */
@@ -53,4 +61,5 @@
   border-radius: 10px;
   font-weight: bold;
   cursor: pointer;
+  font-size: 15px;
 }

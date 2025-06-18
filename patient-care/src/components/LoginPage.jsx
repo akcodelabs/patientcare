@@ -11,13 +11,23 @@ const LoginPage = () => {
       <div className="login-box">
         <h2 className="login-title">Login</h2>
         <form>
-          <label>username</label>
-          <input type="text" className="input-field" />
+          <label htmlFor="username">Username or Email</label>
+          <input
+            id="username"
+            type="text"
+            placeholder="Enter your username or email"
+            className="input-field"
+          />
 
-          <label>username</label>
-          <input type="password" className="input-field" />
+          <label htmlFor="password">Password</label>
+          <input
+            id="password"
+            type="password"
+            placeholder="Enter your password"
+            className="input-field"
+          />
 
-          <button type="submit" className="submit-button">submit</button>
+          <button type="submit" className="submit-button">Login</button>
         </form>
       </div>
     </div>
