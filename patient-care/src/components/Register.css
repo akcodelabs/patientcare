@@ -1,0 +1,123 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.header {
+  background: #cdddfc;
+  padding: 1rem;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.content {
+  display: flex;
+  flex: 1;
+}
+
+.sidebar {
+  width: 220px;
+  background: #b9cef9;
+  padding: 1rem;
+}
+
+.sidebar h3 {
+  margin-top: 1rem;
+  font-weight: bold;
+}
+
+.sidebar ul {
+  list-style: disc;
+  margin: 0.5rem 0 1rem 1.5rem;
+}
+
+.line {
+  border-top: 1px solid #333;
+  margin: 0.5rem 0;
+}
+
+.form-area {
+  flex: 1;
+  padding: 2rem;
+  background: #ffffff;
+  display: flex;
+  flex-direction: column;
+}
+
+.form-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+.form-header h2 {
+  font-size: 1.4rem;
+}
+
+.id {
+  font-weight: bold;
+}
+
+.form-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1.5rem 2rem;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-group label {
+  margin-bottom: 0.4rem;
+  font-weight: bold;
+}
+
+.input {
+  padding: 0.7rem 1rem;
+  border: none;
+  background: #e1e1e1;
+  border-radius: 20px;
+  font-size: 1rem;
+}
+
+.gender-box {
+  display: flex;
+  justify-content: space-around;
+  background: #e1e1e1;
+  border-radius: 20px;
+  padding: 0.7rem 0;
+}
+
+.gender-box label {
+  font-weight: normal;
+  display: flex;
+  align-items: center;
+  gap: 0.3rem;
+}
+
+.full-width {
+  grid-column: span 2;
+}
+
+.submit-btn {
+  margin-top: 2rem;
+  align-self: flex-start;
+  padding: 0.8rem 3rem;
+  font-size: 1rem;
+  border: none;
+  background: #e1e1e1;
+  border-radius: 20px;
+  cursor: pointer;
+  font-weight: bold;
+}
