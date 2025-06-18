@@ -1,0 +1,65 @@
+/* General layout */
+.login-container {
+  font-family: Arial, sans-serif;
+  background-color: white;
+  height: 100vh;
+}
+
+/* Header bar */
+.header-bar {
+  background-color: #c0dbf8;
+  padding: 10px 20px;
+}
+
+.logo-text {
+  margin: 0;
+  font-size: 18px;
+  color: black;
+  font-weight: bold;
+}
+
+/* Login box */
+.login-box {
+  background-color: #dcdcdc;
+  width: 350px;
+  margin: 100px auto;
+  padding: 30px;
+  border-radius: 15px;
+  text-align: left;
+}
+
+.login-title {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+/* Inputs and labels */
+label {
+  display: block;
+  margin-bottom: 6px;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.input-field {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  border: none;
+  font-size: 14px;
+}
+
+/* Button */
+.submit-button {
+  background-color: #90caf9;
+  padding: 10px;
+  width: 100%;
+  border: none;
+  border-radius: 10px;
+  font-weight: bold;
+  cursor: pointer;
+  font-size: 15px;
+}
