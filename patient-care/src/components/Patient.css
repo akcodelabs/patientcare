@@ -1,0 +1,97 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.app {
+  display: flex;
+  height: 100vh;
+}
+
+.sidebar {
+  width: 220px;
+  background: linear-gradient(to bottom, #b3dcff, #80bfff);
+  padding: 20px;
+  color: #000;
+}
+
+.sidebar h2 {
+  font-size: 22px;
+  margin-bottom: 10px;
+}
+
+.sidebar h4, .sidebar h5 {
+  margin-top: 20px;
+  font-weight: bold;
+}
+
+.sidebar ul {
+  list-style-type: disc;
+  padding-left: 20px;
+  margin-top: 5px;
+}
+
+.main {
+  flex: 1;
+  background-color: #e6f2ff;
+  padding: 20px;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.header h2 {
+  margin: 0 auto;
+  font-size: 24px;
+}
+
+.filter-btn {
+  background-color: #ccc;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.search-container {
+  display: flex;
+  gap: 5px;
+}
+
+.search-container input {
+  padding: 6px 10px;
+  border-radius: 20px;
+  border: 1px solid #999;
+  width: 160px;
+}
+
+.search-btn {
+  background-color: #b3d9ff;
+  border: 1px solid #999;
+  padding: 6px 12px;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.data-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.data-table th, .data-table td {
+  text-align: left;
+  padding: 12px;
+  border-bottom: 1px solid #ccc;
+}
+
+.data-table .even {
+  background-color: #b3e0ff;
+}
+
+.data-table .odd {
+  background-color: #e6f7ff;
+}
