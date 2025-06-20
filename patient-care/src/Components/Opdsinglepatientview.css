@@ -1,0 +1,132 @@
+/* general reset */
+body, html, #root {
+  margin: 0; padding: 0; height: 100%; font-family: Arial, sans-serif;
+}
+
+.health-cr {
+  display: grid;
+  grid-template-columns: 260px 1fr;
+  grid-template-rows: 60px 1fr;
+  height: 100vh;
+}
+
+/* header */
+.header-top {
+  grid-column: 1 / -1;
+  background: #c6d8ff;
+  padding: 16px;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+/* sidebar */
+.sidebar {
+  grid-row: 2;
+  background: #e0e5f1;
+  padding: 16px;
+}
+.sidebar h3, .sidebar h4 {
+  margin: 0 0 8px;
+}
+.sidebar hr {
+  border: none;
+  border-bottom: 1px solid #999;
+  margin: 8px 0;
+}
+.sidebar ul {
+  list-style: disc;
+  padding-left: 20px;
+  margin: 4px 0 16px;
+}
+
+/* main area */
+.main-area {
+  grid-row: 2;
+  padding: 16px;
+  background: #f4f7fc;
+  overflow-y: auto;
+}
+
+/* top controls */
+.top-bar {
+  display: flex;
+  align-items: center;
+  margin-bottom: 16px;
+}
+.filter-btn {
+  background: #ddd;
+  border: none;
+  border-radius: 4px;
+  padding: 4px 12px;
+  margin-right: 16px;
+  cursor: pointer;
+}
+.title-label {
+  flex: 1;
+  text-align: center;
+  letter-spacing: 8px;
+  font-weight: bold;
+}
+.search-wrapper {
+  display: flex;
+  align-items: center;
+}
+.search-wrapper input {
+  width: 220px;
+  height: 28px;
+  border: 1px solid #444;
+  border-radius: 14px;
+  padding: 0 12px;
+}
+.search-btn {
+  margin-left: 8px;
+  padding: 4px 12px;
+  border: 1px solid #444;
+  border-radius: 4px;
+  background: white;
+  cursor: pointer;
+}
+
+/* table */
+.data-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+.data-table th,
+.data-table td {
+  border: 1px solid #ccc;
+  padding: 8px;
+  text-align: left;
+}
+.data-table th {
+  background: #eef2ff;
+}
+
+/* summary rows */
+.summary-row {
+  background: #d1e7ff;
+}
+.summary-row.expanded {
+  border-bottom: none;
+}
+
+/* detailed row */
+.detail-row td {
+  background: #d1e7ff;
+}
+.detail-row div {
+  margin: 4px 0;
+  font-size: 0.9rem;
+}
+.detail-row div span:first-child {
+  display: inline-block;
+  width: 90px;
+}
+.cancel-btn {
+  margin-top: 8px;
+  padding: 6px 14px;
+  background: #d2ffd7;
+  border: 1px solid #aaf0aa;
+  border-radius: 4px;
+  cursor: pointer;
+}
