@@ -1,0 +1,151 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2;
+}
+
+.main-container {
+  display: flex;
+  height: 100vh;
+}
+
+.sidebar {
+  background-color: #cbd6f4;
+  width: 250px;
+  padding: 20px;
+}
+
+.sidebar h2 {
+  text-align: center;
+  font-weight: bold;
+}
+
+.menu-heading {
+  font-weight: bold;
+  margin: 15px 0 10px 0;
+  text-align: left;
+}
+
+hr {
+  margin: 5px 0 10px 0;
+}
+
+.menu-list {
+  list-style-position: inside;
+  padding-left: 10px;
+  margin: 0 0 15px 0;
+}
+
+.menu-list li {
+  text-align: left;
+  margin: 8px 0;
+  font-weight: bold;
+}
+
+.medicin-heading {
+  margin-top: 25px;
+  text-align: left;
+}
+
+.medicin-underline {
+  width: 90%;
+  border: 0;
+  border-top: 1px solid #333;
+  margin-left: 0;
+}
+
+.content {
+  flex: 1;
+  background-color: white;
+  padding: 40px 60px;
+}
+
+.title {
+  text-align: left;
+  margin-bottom: 30px;
+  font-weight: bold;
+}
+
+.info-container {
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+  margin-left: 30px;
+}
+
+.info-row {
+  display: grid;
+  grid-template-columns: 160px 20px auto;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.label {
+  font-weight: bold;
+  text-align: left;
+}
+
+.colon {
+  text-align: center;
+}
+
+.value {
+  text-align: left;
+}
+
+.dept-doctor {
+  display: flex;
+  justify-content: flex-start;
+  gap: 60px;
+  margin: 40px 30px 20px 30px;
+}
+
+.block {
+  text-align: center;
+}
+
+.block-title {
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+.block-content {
+  background-color: #ead3c7;
+  padding: 10px 20px;
+  border-radius: 8px;
+  width: 180px;
+}
+
+.date-time {
+  margin-top: 30px;
+}
+
+.date-time .block-title {
+  font-weight: bold;
+  margin-bottom: 8px;
+  text-align: center;
+}
+
+.date-time .block-content {
+  background-color: #ead3c7;
+  padding: 10px 20px;
+  border-radius: 8px;
+  width: 180px;
+  margin: 0 auto;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-between;
+  margin: 50px 80px 0 80px;
+}
+
+button {
+  padding: 12px 30px;
+  border: none;
+  border-radius: 20px;
+  font-weight: bold;
+  background-color: #f2f2f2;
+  box-shadow: 2px 2px 5px rgba(0,0,0,0.2);
+  cursor: pointer;
+}
