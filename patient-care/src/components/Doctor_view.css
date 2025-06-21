@@ -1,0 +1,70 @@
+.container {
+  display: flex;
+  font-family: Arial, sans-serif;
+}
+
+.sidebar {
+  background-color: #e0ecff;
+  width: 25%;
+  padding: 20px;
+}
+
+.sidebar h2, .sidebar h3, .sidebar h4, .sidebar p {
+  margin: 10px 0;
+}
+
+.sidebar hr {
+  margin: 10px 0;
+  border: 0.5px solid #333;
+}
+
+.sidebar ul {
+  padding-left: 20px;
+  margin-bottom: 20px;
+}
+
+.main-content {
+  width: 75%;
+  padding: 20px;
+}
+
+.doctor-header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.doctor-header table {
+  border-collapse: collapse;
+  margin-right: 20px;
+}
+
+.label {
+  font-weight: bold;
+  padding: 6px 10px;
+  text-align: left;
+  width: 120px;
+}
+
+.colon {
+  padding: 6px 5px;
+  width: 10px;
+}
+
+.value {
+  padding: 6px 10px;
+  text-align: left;
+  min-width: 200px;
+}
+
+.image-container img {
+  width: 120px;
+  height: auto;
+  border-radius: 8px;
+}
+
+.extra-box {
+  margin-top: 30px;
+  width: 100%;
+  height: 200px;
+  background-color: lightgray;
+}
