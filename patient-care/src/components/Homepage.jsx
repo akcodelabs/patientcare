@@ -1,47 +1,55 @@
 import React from "react";
-import "./Homepage.css";
+import "./HomePage.css";
 
-function Homepage() {
-  const departments = [
-    { name: "Cardiology", doctors: 30, available: 10, busy: 27 },
-    { name: "cardiology", doctors: 22, available: 7, busy: 15 },
-    { name: "cardiology", doctors: 15, available: 5, busy: 10 },
-    { name: "cardiology", doctors: 25, available: 10, busy: 15 },
-    { name: "cardiology", doctors: 18, available: 8, busy: 10 },
-    { name: "cardiology", doctors: 40, available: 20, busy: 20 },
-  ];
+const departments = [
+  { name: "Cardiology", doctors: 30, available: 10, busy: 27 },
+  { name: "Cardiology", doctors: 30, available: 10, busy: 27 },
+  { name: "Cardiology", doctors: 30, available: 10, busy: 27 },
+  { name: "Cardiology", doctors: 30, available: 10, busy: 27 },
+  { name: "Cardiology", doctors: 30, available: 10, busy: 27 },
+  { name: "Cardiology", doctors: 30, available: 10, busy: 27 },
+];
 
+function HomePage() {
   return (
-    <div className="homepage-container">
+    <div className="container">
       <div className="sidebar">
         <h2>Health CR</h2>
 
         <div className="section">
-          <p className="menu-title">Manager</p>
-          <hr />
+          <p>
+            <strong>Manager</strong>
+          </p>
+          <hr className="custom-line" />
         </div>
 
         <div className="section">
-          <p className="menu-title">OPD</p>
+          <p>
+            <strong>OPD</strong>
+          </p>
           <ul>
             <li>Register patients</li>
-            <li>Patients list</li>
-            <li>Payment</li>
+            <li>patients list</li>
+            <li>Paieemnt</li>
           </ul>
         </div>
 
         <div className="section">
-          <p className="menu-title">IPD</p>
+          <p>
+            <strong>IPD</strong>
+          </p>
           <ul>
             <li>Register patients</li>
-            <li>Patients list</li>
-            <li>Payment</li>
+            <li>patients list</li>
+            <li>Paieemnt</li>
           </ul>
         </div>
 
         <div className="section">
-          <p className="menu-title">Medicin</p>
-          <hr />
+          <p>
+            <strong>Medicin</strong>
+          </p>
+          <hr className="custom-line" />
           <ul>
             <li>List all</li>
           </ul>
@@ -51,24 +59,34 @@ function Homepage() {
       <div className="main">
         <div className="header">
           <h3>Departments</h3>
-          <input type="text" placeholder="Sort..." className="sort-input" />
+          <input className="sort-box" type="text" placeholder="Sort..." />
         </div>
 
-        <div className="cards">
+        <div className="card-container">
           {departments.map((dept, index) => (
-            <div className="card" key={index}>
-              <p>
-                <strong>Department</strong> <span>{dept.name}</span>
-              </p>
-              <p>
-                Doctors : <span>{dept.doctors}</span>
-              </p>
-              <p>
-                Available : <span>{dept.available}</span>
-              </p>
-              <p>
-                Busy : <span>{dept.busy}</span>
-              </p>
+            <div key={index} className="card">
+              <div className="row">
+                <span className="label">Department</span>
+                <span className="colon">:</span>
+                <span className="value">
+                  <strong>{dept.name}</strong>
+                </span>
+              </div>
+              <div className="row">
+                <span className="label">Docters</span>
+                <span className="colon">:</span>
+                <span className="value">{dept.doctors}</span>
+              </div>
+              <div className="row">
+                <span className="label">Available</span>
+                <span className="colon">:</span>
+                <span className="value">{dept.available}</span>
+              </div>
+              <div className="row">
+                <span className="label">Busy</span>
+                <span className="colon">:</span>
+                <span className="value">{dept.busy}</span>
+              </div>
             </div>
           ))}
         </div>
@@ -77,4 +95,4 @@ function Homepage() {
   );
 }
 
-export default Homepage;
+export default HomePage;
