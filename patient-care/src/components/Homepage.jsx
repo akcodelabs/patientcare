@@ -3,9 +3,9 @@ import "./HomePage.css";
 
 const departments = [
   { name: "Cardiology", doctors: 30, available: 10, busy: 27 },
-  { name: "Cardiology", doctors: 30, available: 10, busy: 27 },
-  { name: "Cardiology", doctors: 30, available: 10, busy: 27 },
-  { name: "Cardiology", doctors: 30, available: 10, busy: 27 },
+  { name: "Cardiology", doctors: 15, available: 10, busy: 10 },
+  { name: "Cardiology", doctors: 45, available: 10, busy: 27 },
+  { name: "Cardiology", doctors: 10, available: 10, busy: 5 },
   { name: "Cardiology", doctors: 30, available: 10, busy: 27 },
   { name: "Cardiology", doctors: 30, available: 10, busy: 27 },
 ];
