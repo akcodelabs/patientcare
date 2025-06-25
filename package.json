@@ -1,0 +1,21 @@
+{
+  "name": "patientcare",
+  "version": "1.0.0",
+  "description": "**Project Name:** Patient-Care Healthcare Management System  \r **Project Lead:** Er. Amuthan Arries C / Lead T&D  \r **GitHub:** [amuthanarries](https://github.com/amuthanarries)  \r **Description:** A comprehensive full-stack web application that enables healthcare providers to manage patient records, schedule appointments, and track medical histories with secure authentication. Features include patient registration, appointment booking, prescription tracking, and role-based access for doctors and staff.  \r **Technology Stack:** MERN Stack (MongoDB, Express.js, React.js, Node.js)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/akcodelabs/patientcare.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/akcodelabs/patientcare/issues"
+  },
+  "homepage": "https://github.com/akcodelabs/patientcare#readme"
+}

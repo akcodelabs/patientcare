@@ -1,0 +1,132 @@
+/* App.css */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  display: flex;
+  height: 100vh;
+  background-color: #f8f8f8;
+}
+
+.sidebar {
+  width: 250px;
+  background-color: #b2c7f5;
+  padding: 20px;
+  color: #000;
+}
+
+.sidebar h2 {
+  margin-bottom: 20px;
+}
+
+.menu-section h4 {
+  border-bottom: 1px solid #000;
+  padding-bottom: 5px;
+  margin-bottom: 10px;
+}
+
+.menu-section ul {
+  list-style: disc;
+  padding-left: 20px;
+  margin-top: 0;
+}
+
+.main-content {
+  flex: 1;
+  padding: 30px;
+  background-color: #fff;
+}
+
+.stats-section {
+  display: flex;
+  justify-content: center;
+  gap: 60px;
+  margin: 30px 0;
+}
+
+.patients-box, .nurse-box {
+  background-color: #e6e6e6;
+  padding: 20px 30px;
+  border-radius: 15px;
+  width: 300px;
+  box-sizing: border-box;
+}
+
+.patients-box h4, .nurse-box h4 {
+  margin-bottom: 15px;
+  color: #000;
+  text-align: left;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.patients-box .row,
+.nurse-box .row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 15px;
+  padding: 5px 0;
+  font-weight: 500;
+}
+
+.patients-box .row span,
+.nurse-box .row span {
+  display: inline-block;
+}
+
+.label {
+  width: 120px;
+  text-align: right;
+  padding-right: 10px;
+}
+
+.colon {
+  width: 10px;
+  text-align: center;
+}
+
+.value {
+  width: 90px;
+  text-align: left;
+  padding-left: 10px;
+}
+
+.data-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.data-table th, .data-table td {
+  text-align: left;
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+}
+
+.data-row {
+  background-color: #d5f2e3;
+  border-radius: 10px;
+}
+
+.data-row input {
+  width: 95%;
+  padding: 5px;
+  border: none;
+  background-color: transparent;
+}
+
+.cancel-btn {
+  background-color: #80bfe3;
+  color: white;
+  border: none;
+  padding: 6px 12px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.cancel-btn:hover {
+  background-color: #5aa7cf;
+}
